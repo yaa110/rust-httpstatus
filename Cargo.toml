@@ -2,5 +2,16 @@
 name = "httpstatus"
 version = "0.1.0"
 authors = ["Navid <yaa110@gmail.com>"]
+license = "MIT/Apache-2.0"
+repository = "https://github.com/yaa110/rust-httpstatus"
+homepage = "https://github.com/yaa110/rust-httpstatus"
+documentation = "https://docs.rs/httpstatus/0.1"
+description = """
+Provides a list of HTTP response status codes.
+"""
+categories = ["network-programming"]
+
+[badges]
+travis-ci = { repository = "yaa110/rust-httpstatus" }
 
 [dependencies]

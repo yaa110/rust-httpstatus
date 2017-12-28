@@ -1,0 +1,6 @@
+[package]
+name = "httpstatus"
+version = "0.1.0"
+authors = ["Navid <yaa110@gmail.com>"]
+
+[dependencies]

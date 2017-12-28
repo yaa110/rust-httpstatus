@@ -1,5 +1,5 @@
-Rust HTTP staus codes
-=====================
+Rust HTTP status codes
+======================
 
 [![crates.io](https://img.shields.io/crates/v/httpstatus.svg)](https://crates.io/crates/httpstatus) [![Documentation](https://img.shields.io/badge/Docs-httpstatus-blue.svg)](https://docs.rs/httpstatus/0.1) [![Build Status](https://travis-ci.org/yaa110/rust-httpstatus.svg?branch=master)](https://travis-ci.org/yaa110/rust-httpstatus)
 

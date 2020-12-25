@@ -1,5 +1,3 @@
-extern crate httpstatus;
-
 use httpstatus::{StatusCode, StatusClass};
 
 #[test]

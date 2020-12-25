@@ -367,11 +367,11 @@ impl StatusCode {
     #[inline]
     pub fn class(&self) -> StatusClass {
         match self.as_u16() {
-            100...199 => StatusClass::Informational,
-            200...299 => StatusClass::Success,
-            300...399 => StatusClass::Redirection,
-            400...499 => StatusClass::ClientError,
-            500...599 => StatusClass::ServerError,
+            100..=199 => StatusClass::Informational,
+            200..=299 => StatusClass::Success,
+            300..=399 => StatusClass::Redirection,
+            400..=499 => StatusClass::ClientError,
+            500..=599 => StatusClass::ServerError,
             _ => StatusClass::Unknown,
         }
     }
